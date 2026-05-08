@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <title>Glitch’n’Stitch • Sports & Outdoors Apps</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header fade-in">
+    <div class="brand">
+      <!-- Replace logo.png with your extracted logo file -->
+      <img src="logo.png" alt="Glitch’n’Stitch logo" class="logo" />
+      <div class="brand-text">
+        <div class="brand-name">GLITCH’n’STITCH</div>
+        <div class="brand-tagline">Sports & Outdoors App Developer</div>
+      </div>
+    </div>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+      <span class="toggle-icon sun">☀️</span>
+      <span class="toggle-icon moon">🌙</span>
+      <span class="toggle-knob"></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero parallax fade-in">
+      <!-- Replace hero-bg.jpg with your artwork file -->
+      <div class="hero-bg" style="background-image: url('hero-bg.jpg');"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Smart apps for real‑world motion.</h1>
+        <p class="hero-subtitle">
+          Glitch’n’Stitch blends AI, sports, and the outdoors into tools that actually help you move better.
+        </p>
+        <a href="#apps" class="hero-cta">Explore apps</a>
+      </div>
+    </section>
+
+    <!-- APPS -->
+    <section id="apps" class="section fade-in">
+      <div class="section-header">
+        <h2>Apps</h2>
+        <p>A single place to explore everything built by Glitch’n’Stitch.</p>
+      </div>
+
+      <div class="apps-grid">
+        <!-- SwingSense AI -->
+        <article class="app-card slide-up">
+          <div class="app-header">
+            <div>
+              <h3 class="app-title">SwingSense AI</h3>
+              <p class="app-subtitle">AI‑powered golf swing analysis</p>
+            </div>
+            <span class="app-platform">Web</span>
+          </div>
+          <p class="app-desc">
+            Analyze your golf swing with AI‑driven insights, visual feedback, and performance tracking designed for real‑world practice.
+          </p>
+          <div class="app-links">
+            <a href="https://hypersonic-swing-sense-pro.com" target="_blank" rel="noopener">Visit site</a>
+          </div>
+        </article>
+
+        <!-- Placeholder for future apps -->
+        <article class="app-card slide-up">
+          <div class="app-header">
+            <div>
+              <h3 class="app-title">Coming Soon</h3>
+              <p class="app-subtitle">New sports & outdoor tools</p>
+            </div>
+            <span class="app-platform">TBA</span>
+          </div>
+          <p class="app-desc">
+            Future Glitch’n’Stitch projects will live here — more motion, more data, more ways to explore and improve.
+          </p>
+          <div class="app-links">
+            <span class="app-tag">In development</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section id="screenshots" class="section fade-in">
+      <div class="section-header">
+        <h2>Screenshots</h2>
+        <p>Preview the experience. Replace these placeholders with real screenshots when you’re ready.</p>
+      </div>
+
+      <div class="screenshot-grid">
+        <!-- Replace screenshot1.jpg, screenshot2.jpg, etc. with real files -->
+        <button class="screenshot-item zoom-in" data-full="screenshot1.jpg">
+          <img src="screenshot1.jpg" alt="Screenshot placeholder 1" />
+        </button>
+        <button class="screenshot-item zoom-in" data-full="screenshot2.jpg">
+          <img src="screenshot2.jpg" alt="Screenshot placeholder 2" />
+        </button>
+        <button class="screenshot-item zoom-in" data-full="screenshot3.jpg">
+          <img src="screenshot3.jpg" alt="Screenshot placeholder 3" />
+        </button>
+        <button class="screenshot-item zoom-in" data-full="screenshot4.jpg">
+          <img src="screenshot4.jpg" alt="Screenshot placeholder 4" />
+        </button>
+      </div>
+
+      <!-- Lightbox -->
+      <div class="lightbox" id="lightbox">
+        <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+        <img class="lightbox-image" id="lightboxImage" alt="Expanded screenshot" />
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close screenshot">✕</button>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section fade-in">
+      <div class="section-header">
+        <h2>About Glitch’n’Stitch</h2>
+        <p>
+          Glitch’n’Stitch builds clever, high‑performance apps at the intersection of sports, outdoors, and AI‑driven insight.
+        </p>
+      </div>
+      <p class="section-body">
+        From swing analysis to motion‑aware tools, every project is designed to feel grounded in real‑world use — not just
+        demos. The goal is simple: give people tech that actually helps them move, explore, and improve.
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section fade-in">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Have feedback, ideas, or collaboration opportunities? Reach out anytime.</p>
+      </div>
+      <div class="contact-links">
+        <!-- Replace with your real email / profiles -->
+        <a href="mailto:you@example.com">you@example.com</a>
+        <a href="https://github.com/GlitchnStitch" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer fade-in">
+    © <span id="year"></span> Glitch’n’Stitch. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
