@@ -476,3 +476,35 @@ body {
     font-size: 1.6rem;
   }
 }
+.contact-form {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-width: 420px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.7rem 1rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--border-subtle);
+  background: var(--card);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.contact-form button {
+  padding: 0.7rem 1rem;
+  border-radius: 0.6rem;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: opacity 0.2s ease-out;
+}
+
+.contact-form button:hover {
+  opacity: 0.85;
+}
